@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "my-app",
+    "slug": "test_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Allow"
+        }
+      ]
+    ],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.vercel.eunnho",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "app.vercel.eunnho"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8f24c80f-bc69-4a3e-8984-fd22c27175f6"
+      }
+    }
+  }
+}
